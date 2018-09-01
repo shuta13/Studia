@@ -1,0 +1,32 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+  background-color: ivory;
+}
+
+h1{
+  font-family: "APJapanesefont";
+  font-size: 40px;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border-style: dashed;
+  border-color: black;
+  border-width: 1px 1px; //縦の調整は各項目ごとにする
+}
+
+.goal{
+  color: #ec4d3d;
+}
+.record{
+  color: #35af5f;
+}
+.check{
+  color: #fc9308;
+}
+.forParents{
+  color: #757a7d;
+}

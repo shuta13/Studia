@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+@font-face {
+    font-family: "APJapanesefont";
+    src: font-url('APJapanesefont.woff') format('woff');
+}
