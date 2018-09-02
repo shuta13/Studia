@@ -4,8 +4,8 @@
 body{
   background-color: ivory;
 }
-
-h1{
+/*top*/
+.toplist{
   font-family: "APJapanesefont";
   font-size: 30px;
   border-radius: 5px;
@@ -19,11 +19,12 @@ h1{
   padding: 10px 10px;
   margin-top: 40px;
   margin-bottom: 40px;
+  margin-top: 15%;
+  margin-bottom: 15%;
 }
 
 .goal{
   color: #ec4d3d;
-  padding-top: auto;
 }
 .record{
   color: #35af5f;
@@ -33,5 +34,39 @@ h1{
 }
 .forParents{
   color: #757a7d;
-  padding-bottom: auto;
+}
+/*decision*/
+.titleRegister{
+  font-family: "APJapanesefont";
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20%;
+  color: #fc9308;
+}
+.formRegister{
+  width: 90%;
+  height: 50px;
+  border-radius: 10px;
+  border-color: #757a7d;
+  border-style: dashed;
+  border-width: 1px 1px;
+}
+.forms{
+  text-align: center;
+}
+::placeholder{
+  font-family: "APJapanesefont";
+  font-size: 200%;
+  text-align: left;
+  color: #b5b4ac;
+}
+.preWords{
+  font-family: "APJapanesefont";
+  font-size: 100%;
+  color: white;
+  margin-top: 10%;
+  background-color: #35af5f;
+  border-style: solid;
+  border-color: #35af5f;
+  border-radius: 5px;
 }
