@@ -35,38 +35,3 @@ body{
 .forParents{
   color: #757a7d;
 }
-/*decision*/
-.titleRegister{
-  font-family: "APJapanesefont";
-  font-size: 40px;
-  text-align: center;
-  margin-top: 20%;
-  color: #fc9308;
-}
-.formRegister{
-  width: 90%;
-  height: 50px;
-  border-radius: 10px;
-  border-color: #757a7d;
-  border-style: dashed;
-  border-width: 1px 1px;
-}
-.forms{
-  text-align: center;
-}
-::placeholder{
-  font-family: "APJapanesefont";
-  font-size: 200%;
-  text-align: left;
-  color: #b5b4ac;
-}
-.preWords{
-  font-family: "APJapanesefont";
-  font-size: 100%;
-  color: white;
-  margin-top: 10%;
-  background-color: #35af5f;
-  border-style: solid;
-  border-color: #35af5f;
-  border-radius: 5px;
-}

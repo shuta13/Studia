@@ -1,0 +1,18 @@
+<head>
+
+</head>
+<body>
+<h1 class="titleRegister">べんきょうどうぐを<br>とうろくしよう</h1>
+<%= form_tag('/goals/goalcreate') do %>
+  <div class="goalforms">
+    <input name="content" class="formRegister" style="" placeholder="(例)さんすうのきょうかしょ">
+  </div>
+<% end %>
+<h1 class="pageRegister">１にちで<br>すすめるページすうを<br>きめよう</h1>
+<%= form_tag('/goals/goalcreate') do %>
+  <div class="numforms">
+    <input name="number" class="numRegister" style="" placeholder="(例) 3">
+    <input class="preWords" type="submit" value="とうろく">
+  </div>
+<% end %>
+</body>

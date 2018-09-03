@@ -1,0 +1,142 @@
+// Place all the styles related to the goals controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.titleRegister{
+  font-family: "APJapanesefont";
+  font-size: 32px;
+  text-align: center;
+  margin-top: 12%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fc9308;
+}
+.pageRegister{
+  font-family: "APJapanesefont";
+  font-size: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  color: #fc9308;
+}
+
+/*input欄*/
+.formRegister{
+  width: 80%;
+  height: 28px;
+  border-radius: 10px;
+  border-color: #757a7d;
+  border-style: dashed;
+  border-width: 1px 1px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.numRegister{
+  width: 80%;
+  height: 30px;
+  border-radius: 10px;
+  border-color: #757a7d;
+  border-style: dashed;
+  border-width: 1px 1px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*input欄終わり*/
+.goalforms{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.numforms{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+::placeholder{
+  font-family: "APJapanesefont";
+  font-size: 130%;
+  text-align: left;
+  color: #b5b4ac;
+}
+.preWords{
+  font-family: "APJapanesefont";
+  font-size: 100%;
+  color: white;
+  margin-top: 5%;
+  background-color: #35af5f;
+  border-style: solid;
+  border-color: #35af5f;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.titleConfirm{
+  font-family: "APJapanesefont";
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  color: #fc9308;
+}
+.nontoplist{
+  color: #ec4d3d;
+  width: 42%;
+  font-family: "APJapanesefont";
+  font-size: 14px;
+  border-radius: 5px;
+  text-align: center;
+  border-style: dashed;
+  border-color: black;
+  border-width: 1px 1px;
+  padding: 3px 3px;
+  margin-top: 22%;
+  margin-left: 23%;
+  margin-bottom: 0%;
+  line-height: 80%;
+}
+.bodyconfirm1{
+  color: #757a7d;
+  font-family: "APJapanesefont";
+  font-size: 20px;
+  margin-top: 0%;
+  margin-left: 70%;
+  margin-right: 10%;
+  margin-bottom: 0%;
+  line-height: 5%;
+}
+
+.bodyconfirm2{
+  color: #757a7d;
+  font-family: "APJapanesefont";
+  font-size: 24px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+}
+.confirmList1{
+  line-height: 20%;
+}
+.confirmList2{
+  line-height: 120%;
+}
+.backTop{
+  color: #35af5f;
+  font-family: "APJapanesefont";
+  font-size: 30px;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border-style: dashed;
+  border-color: black;
+  border-width: 1px 1px;
+  padding: 10px 10px;
+  margin-top: 30%;
+}

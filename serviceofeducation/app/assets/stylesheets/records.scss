@@ -1,0 +1,77 @@
+// Place all the styles related to the records controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.recordTitle{
+  color: #fc9308;
+  font-family: "APJapanesefont";
+  font-size: 32px;
+  text-align: center;
+  margin-top: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.recordNotice{
+  color: #ec4d3d;
+  font-family: "APJapanesefont";
+  font-size: 18px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 60%;
+}
+/*.recordWay{
+  color: #35af5f;
+  font-family: "APJapanesefont";
+  font-size: 30px;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-style: dashed;
+  border-color: black;
+  border-width: 1px 1px;
+  padding: 10px 10px;
+  margin-top: 35%
+;
+}
+*/
+/*きろくするページ*/
+.recordPageTitle{
+  font-family: "APJapanesefont";
+  font-size: 32px;
+  text-align: center;
+  margin-top: 12%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fc9308;
+}
+.inpNumPage{
+  width: 90%;
+  height: 30px;
+  border-radius: 10px;
+  border-color: #757a7d;
+  border-style: dashed;
+  border-width: 1px 1px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pageConfirm{
+  font-family: "APJapanesefont";
+  font-size: 100%;
+  color: white;
+  margin-top: 5%;
+  background-color: #35af5f;
+  border-style: solid;
+  border-color: #35af5f;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.numPage{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
