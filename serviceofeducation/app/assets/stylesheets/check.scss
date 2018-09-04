@@ -1,0 +1,125 @@
+// Place all the styles related to the check controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.passStamp{
+  color: #fc9308;
+  font-family: "APJapanesefont";
+  font-size: 30px;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border-style: dashed;
+  border-color: black;
+  border-width: 1px 1px;
+  padding: 10px 10px;
+  margin-top: 30%;
+}
+.getStamp{
+  color: #757a7d;
+  font-family: "APJapanesefont";
+  font-size: 24px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+}
+/*checkpass*/
+.getTitle{
+  color: #35af5f;
+  font-family: "APJapanesefont";
+  font-size: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+.checkTitle{
+  color: #fc9308;
+  font-family: "APJapanesefont";
+  font-size: 28px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  line-height: 120%;
+}
+.checkForms{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.inpPass{
+  width: 90%;
+  height: 25px;
+  font-size: 13px;
+  border-radius: 5px;
+  border-color: #b5b4ac;
+  border-style: solid;
+  border-width: 1px 1px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+}
+.passConfirm{
+  font-family:"Yu Gothic UI Light";
+  font-size: 12px;
+  color: white;
+  background-color: #757a7d;
+  border-style: solid;
+  border-color: #757a7d;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+}
+.passNotice{
+  color: #757a7d;
+  font-family:"Yu Gothic UI Light";
+  font-size: 13px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 18%;
+  line-height: 100%;
+}
+.passReset{
+  color: #757a7d;
+  font-family:"Yu Gothic UI Light";
+  font-size: 15px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 100%;
+  margin-top: 10%;
+}
+/*checkprogress*/
+.confirmTitle{
+  color: #757a7d;
+  font-family: "Yu Gothic UI Light";
+  font-size: 18px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 120%;
+  margin-top: 35%;
+}
+.confirmGo{
+  color: #b5b4ac;
+  height: 30px;
+  font-family: "Yu Gothic UI Light";
+  font-size: 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  width: 80%;
+  border-style: dashed;
+  border-color: black;
+  border-width: 1px 1px;
+  padding: 4px 4px;
+}

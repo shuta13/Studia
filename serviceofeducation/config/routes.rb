@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  get 'check/checklist' => 'check#checklist'
+  get 'check/checkpass' => 'check#checkpass'
+  get 'check/checkprogress' => 'check#checkprogress'
+  get 'check/progresscontent' => 'check#progresscontent'
+
   get 'records/recordimage' => 'records#recordimage'
   get 'records/recordpage' => 'records#recordpage'
   get 'records/recordwell' => 'records#recordwell'

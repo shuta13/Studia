@@ -22,8 +22,11 @@
 
 /*input欄*/
 .formRegister{
-  width: 80%;
+  color: #757a7d;
+  width: 90%;
   height: 28px;
+  font-family: "APJapanesefont";
+  font-size: 18px;
   border-radius: 10px;
   border-color: #757a7d;
   border-style: dashed;
@@ -33,8 +36,11 @@
   margin-right: auto;
 }
 .numRegister{
-  width: 80%;
-  height: 30px;
+  color: #757a7d;
+  width: 90%;
+  height: 25px;
+  font-family: "APJapanesefont";
+  font-size: 18px;
   border-radius: 10px;
   border-color: #757a7d;
   border-style: dashed;
@@ -44,20 +50,19 @@
   margin-right: auto;
 }
 /*input欄終わり*/
-.goalforms{
+.goalForms{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
-.numforms{
+.numForms{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
 ::placeholder{
   font-family: "APJapanesefont";
-  font-size: 130%;
-  text-align: left;
+  text-align: center;
   color: #b5b4ac;
 }
 .preWords{
@@ -83,7 +88,7 @@
   margin-top: 15%;
   color: #fc9308;
 }
-.nontoplist{
+.nonTopList{
   color: #ec4d3d;
   width: 42%;
   font-family: "APJapanesefont";
@@ -99,7 +104,7 @@
   margin-bottom: 0%;
   line-height: 80%;
 }
-.bodyconfirm1{
+.bodyConfirm1{
   color: #757a7d;
   font-family: "APJapanesefont";
   font-size: 20px;
@@ -110,7 +115,7 @@
   line-height: 5%;
 }
 
-.bodyconfirm2{
+.bodyConfirm2{
   color: #757a7d;
   font-family: "APJapanesefont";
   font-size: 24px;

@@ -16,6 +16,8 @@
 @font-face {
     font-family: "APJapanesefont";
     src: font-url('APJapanesefont.woff') format('woff');
+    font-family: "light";
+    src: font-url('light.woff') format('woff');
 }
 a {
     text-decoration: none;
