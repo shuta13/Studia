@@ -1,0 +1,18 @@
+<head>
+
+</head>
+<body>
+<h1 class="newNotion">おうちのひとに<br>みせてね</h1>
+<h1 class="newGuide">ユーザーID と パスワード を<br>登録して下さい</h1>
+<%= form_tag('/home/create') do %>
+  <h1 class="titleNew">ユーザーID</h1>
+  <div class="newName">
+    <input name="name" class="formNew" value="<%= @name %>">
+  </div>
+  <h1 class="newPass">パスワード</h1>
+  <div class="newInp">
+    <input name="password" type="password" class="newLog" value="<%= @password %>">
+    <input name="" type="submit" class="preNew" value="スタート">
+  </div>
+<% end %>
+</body>

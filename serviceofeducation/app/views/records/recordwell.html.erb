@@ -3,7 +3,10 @@
 </head>
 <body>
 <h1 class="wellTitle">よくできました！</h1>
-<a href="/top">
+<!--<a href="/top">
   <h1 class="wellBack">ホームにもどる</h1>
-</a>
+</a>-->
+<div class="wellBack">
+  <%= link_to"ホームにもどる", {:controller => 'home', :action => 'top'}, {:style => "color: #35af5f;"} %>
+</div>
 </body>

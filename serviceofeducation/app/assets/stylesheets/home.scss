@@ -4,10 +4,57 @@
 body{
   background-color: ivory;
 }
+/*start*/
+.startGo{
+  background-color: #35af5f;
+  font-family: "APJapanesefont";
+  font-size: 30px;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border-style: dashed;
+  border-color: black;
+  border-width: 1px 1px;
+  padding: 10px 10px;
+  margin-top: 100%;
+}
+/*menu*/
+.continueGo{
+  background-color: #35af5f;
+  font-family: "APJapanesefont";
+  font-size: 30px;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border-style: dashed;
+  border-color: black;
+  border-width: 1px 1px;
+  padding: 10px 10px;
+  margin-top: 25%;
+}
+.newGo{
+  background-color: #4285f4;
+  font-family: "APJapanesefont";
+  font-size: 30px;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border-style: dashed;
+  border-color: black;
+  border-width: 1px 1px;
+  padding: 10px 10px;
+  margin-top: 50%;
+}
 /*top*/
 .toplist{
   font-family: "APJapanesefont";
-  font-size: 30px;
+  font-size: 28px;
   border-radius: 5px;
   text-align: center;
   margin-left: auto;
@@ -35,3 +82,209 @@ body{
 .forParents{
   color: #757a7d;
 }
+
+/*login*/
+.loginNotion{
+  color: #ec4d3d;
+  font-family: "APJapanesefont";
+  font-size: 40px;
+  border-radius: 10px;
+  border-color: #757a7d;
+  border-style: dashed;
+  border-width: 1px 1px;
+  text-align: center;
+  margin-top: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.titleLogin{
+  font-family: "Yu Gothic UI Light";
+  font-size: 20px;
+  text-align: center;
+  margin-top: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #757a7d;
+}
+.passLogin{
+  font-family: "Yu Gothic UI Light";
+  font-size: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  color: #757a7d;
+}
+
+/*input欄*/
+.formLogin{
+  font-family: "Yu Gothic UI";
+  font-size: 23px;
+  width: 90%;
+  height: 28px;
+  border-radius: 10px;
+  border-color: #757a7d;
+  border-style: dashed;
+  border-width: 1px 1px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.loginGo{
+  width: 90%;
+  height: 25px;
+  border-radius: 10px;
+  border-color: #757a7d;
+  border-style: dashed;
+  border-width: 1px 1px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*input欄終わり*/
+.loginName{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.passInp{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+::placeholder{
+  font-family: "APJapanesefont";
+  text-align: center;
+  color: #b5b4ac;
+}
+.preLogin{
+  font-family: "Yu Gothic UI";
+  font-size: 100%;
+  color: white;
+  margin-top: 5%;
+  background-color: #35af5f;
+  border-style: solid;
+  border-color: #35af5f;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+/*new*/
+.newNotion{
+  color: #ec4d3d;
+  font-family: "APJapanesefont";
+  font-size: 40px;
+  border-radius: 10px;
+  border-color: #757a7d;
+  border-style: dashed;
+  border-width: 1px 1px;
+
+  text-align: center;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.newGuide{
+  font-family: "Yu Gothic UI Light";
+  font-size: 18px;
+  text-align: center;
+  margin-top: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+}
+.titleNew{
+  font-family: "Yu Gothic UI Light";
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #757a7d;
+}
+.passSet{
+  font-family: "Yu Gothic UI Light";
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #757a7d;
+}
+.newName{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.newPass{
+  font-family: "Yu Gothic UI Light";
+  font-size: 20px;
+  text-align: center;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #757a7d;
+}
+.newInp{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*input*/
+.formNew{
+  font-family: "Yu Gothic UI";
+  font-size: 23px;
+  width: 90%;
+  height: 28px;
+  border-radius: 10px;
+  border-color: #757a7d;
+  border-style: dashed;
+  border-width: 1px 1px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.newLog{
+  width: 90%;
+  height: 25px;
+  border-radius: 10px;
+  border-color: #757a7d;
+  border-style: dashed;
+  border-width: 1px 1px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+}
+/*button*/
+.preNew{
+  font-family: "Yu Gothic UI";
+  font-size: 100%;
+  color: white;
+  margin-top: 5%;
+  background-color: #35af5f;
+  border-style: solid;
+  border-color: #35af5f;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*logout*/
+.outButton{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.outGo{
+  font-family: "APJapanesefont";
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #35af5f;
+  border-style: solid;
+  border-color: #35af5f;
+  border-radius: 5px;
+}
+

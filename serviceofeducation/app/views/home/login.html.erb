@@ -1,0 +1,17 @@
+<head>
+
+</head>
+<body>
+<h1 class="loginNotion">おうちのひとに<br>みせてね</h1>
+<%= form_tag('/home/authentication') do %>
+  <h1 class="titleLogin">ユーザーID</h1>
+  <div class="loginName">
+    <input name="name" class="formLogin" value="<%= @name %>">
+  </div>
+  <h1 class="passLogin">パスワード</h1>
+  <div class="passInp">
+    <input name="password" type="password" class="loginGo" value="<%= @password %>">
+    <input name="" type="submit" class="preLogin" value="ログイン">
+  </div>
+<% end %>
+</body>

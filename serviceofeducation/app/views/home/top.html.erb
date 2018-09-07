@@ -3,15 +3,22 @@
 </head>
 <body>
   <div>
-    <a href="/goals/goaldecision" id="goal">
-      <h1 class="toplist goal">もくひょうをきめる</h1>
-    </a>
-    <a href="/records/recordimage">
-      <h1 class="toplist record">きろくする</h1>
-    </a>
-    <a href="/check/checklist">
-      <h1 class="toplist check">かくにんする</h1>
-    </a>
-    <h1 class="toplist forParents">つかいかた</h1>
+    <div class="toplist" id="goal">
+      <%= link_to"もくひょうをきめる", {:controller => 'goals', :action => 'goaldecision'}, {:style => "color: #ec4d3d;"} %>
+    </div>
+    <div class="toplist">
+      <%= link_to"きろくする", {:controller => 'records', :action => 'recordimage'}, {:style => "color: #35af5f;"} %>
+    </div>
+    <div class="toplist">
+      <%= link_to"かくにんする", {:controller => 'check', :action => 'checklist'}, {:style => "color: #fc9308;"} %>
+    </div>
+    <div class="toplist">
+      <%= link_to"つかいかた", {:controller => 'example', :action => 'goalimage'}, {:style => "color: #4285f4;"} %>
+    </div>
+    <%= form_tag("/home/logout") do %>
+      <div class="outButton">
+        <input type="submit" class="outGo" value="おわる">
+      </div>
+    <% end %>
   </div>
 </body>

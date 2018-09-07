@@ -12,7 +12,10 @@
       <h1 class="bodyConfirm2">もくひょうを<br>いつでもたしかめられるよ</h1>
     </div>
   </div>
-  <a href="/top">
+  <!--<a href="/top">
     <h1 class="backTop">ホームにもどる</h1>
-  </a>
+  </a>-->
+  <div class="backTop">
+    <%= link_to"ホームにもどる", {:controller => 'home', :action => 'top'}, {:style => "color: #35af5f;"} %>
+  </div>
 </body>

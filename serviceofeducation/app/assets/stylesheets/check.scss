@@ -2,7 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .passStamp{
-  color: #fc9308;
   font-family: "APJapanesefont";
   font-size: 30px;
   border-radius: 5px;
@@ -29,7 +28,7 @@
 .getTitle{
   color: #35af5f;
   font-family: "APJapanesefont";
-  font-size: 30px;
+  font-size: 27px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -127,11 +126,18 @@
   color: #ec4d3d;
   font-family: "Yu Gothic UI Light";
   font-size: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25%;
 }
 .dayProgress{
   color: #4285f4;
   font-family: "Yu Gothic UI Light";
   font-size: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .checkContent{
   color: #b5b4ac;
