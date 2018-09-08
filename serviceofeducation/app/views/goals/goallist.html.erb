@@ -1,0 +1,16 @@
+<head>
+
+</head>
+<body>
+<h1 class="titleRegister">べんきょうするもの</h1>
+  <div class="listContent">
+    <%= @content %>
+  </div>
+<h1 class="pageRegister">１にちで<br>すすめるページすう</h1>
+  <div class="listNum">
+    <%= @pageNum %>
+  </div>
+<div class="listBack">
+  <%= link_to"ホームにもどる", {:controller => 'home', :action => 'top'}, {:style => "color: #35af5f;"} %>
+</div>
+</body>

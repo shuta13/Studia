@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   get 'check/checklist' => 'check#checklist'
   get 'check/checkpass' => 'check#checkpass'
+  get 'check/checkinfo' => 'check#checkinfo'
   get 'check/checkprogress' => 'check#checkprogress'
   get 'check/progresscontent' => 'check#progresscontent'
 
@@ -12,6 +13,7 @@ Rails.application.routes.draw do
 
   get 'goals/goaldecision' => 'goals#goaldecision'
   get 'goals/goalconfirm' => 'goals#goalconfirm'
+  get 'goals/goallist' => 'goals#goallist'
 
   get '/' => 'home#start'
   get 'menu' => 'home#menu'
@@ -24,5 +26,6 @@ Rails.application.routes.draw do
   post 'home/logout' => 'home#logout'
   post 'records/recordcreate' => 'records#recordcreate'
   post 'goals/goalcreate' => 'goals#goalcreate'
+  post 'check/checkauthentication' => 'check#checkauthentication'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

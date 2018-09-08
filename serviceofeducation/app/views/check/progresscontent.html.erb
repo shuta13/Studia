@@ -5,7 +5,7 @@
 <h1 class="goalProgress">目標の進度： <%= @pageNumber %>  ページ</h1>
 <h1></h1>
 <h1 class="dayProgress">今日の進度： <%= @pageNumStudy %>  ページ</h1>
-<a href="/">
-  <h1 class="checkContent">勉強内容を確認する</h1>
-</a>
+<div class="checkContent">
+  <%= link_to"勉強内容を確認する", {:controller => 'home', :action => 'top'}, {:style => "color: #757a7d"} %>
+</div>
 </body>

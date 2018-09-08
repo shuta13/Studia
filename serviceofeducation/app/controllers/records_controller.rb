@@ -4,8 +4,12 @@ class RecordsController < ApplicationController
   def recordpage
   end
   def recordcreate
-    @record = Record.new(studypage: params[:pageNumber])
-    @record.save
-    redirect_to('/records/recordwell')
+    @record = Record.new(
+      studypage: params[:pageNumber],
+      user_id: @current_user.id
+      )
+    if @record.save
+      redirect_to('/records/recordwell')
+    end
   end
 end

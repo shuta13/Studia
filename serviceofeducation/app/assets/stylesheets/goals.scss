@@ -139,7 +139,7 @@
   margin-right: auto;
   width: 90%;
   border-style: dashed;
-  border-color: black;
+  border-color: #757a7d;
   border-width: 1px 1px;
   padding: 10px 10px;
   margin-top: 30%;
@@ -163,8 +163,50 @@
   margin-right: auto;
   width: 90%;
   border-style: dashed;
-  border-color: black;
+  border-color: #757a7d;
   border-width: 1px 1px;
   padding: 10px 10px;
   margin-top: 25%;
+}
+.listContent{
+  color: #757a7d;
+  font-family: "APJapanesefont";
+  font-size: 30px;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-style: solid;
+  border-color: #b5b4ac;
+  border-width: 1px 1px;
+  padding: 10px 10px;
+}
+.listNum{
+  color: #4285f4;
+  font-family: "APJapanesefont";
+  font-size: 30px;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-style: solid;
+  border-color: #b5b4ac;
+  border-width: 1px 1px;
+  padding: 10px 10px;
+}
+.listBack{
+  font-family: "APJapanesefont";
+  font-size: 30px;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border-style: dashed;
+  border-color: #757a7d;
+  border-width: 1px 1px;
+  padding: 10px 10px;
+  margin-top: 20%;
 }

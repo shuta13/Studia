@@ -3,7 +3,7 @@
 </head>
 <body>
 <h1 class="confirmTitle">下のボタンから<br>勉強進度，勉強内容を確認後<br>スタンプを押して下さい</h1>
-<a href="/">
-  <h1 class="confirmGo">確認</h1>
-</a>
+<div class="confirmGo">
+  <%= link_to"確認", {:controller => 'check', :action => 'progresscontent'}, {:style => "color: #757a7d;"} %>
+</div>
 </body>
