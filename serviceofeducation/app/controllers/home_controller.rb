@@ -19,7 +19,11 @@ class HomeController < ApplicationController
         )
     if @user.save
       session[:user_id] = @user.id
+      flash[:notice] = nil
       redirect_to('/top') #←本来ならログイン完了→testページに飛ばす
+    else
+      flash[:notice] = "そのIDは既に使用されています"
+      render('new')
     end
   end
   ###

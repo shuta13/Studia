@@ -4,7 +4,7 @@
 .recordTitle{
   color: #fc9308;
   font-family: "APJapanesefont";
-  font-size: 32px;
+  font-size: 125px;
   text-align: center;
   margin-top: 25%;
   margin-left: auto;
@@ -13,7 +13,7 @@
 .recordNotice{
   color: #ec4d3d;
   font-family: "APJapanesefont";
-  font-size: 18px;
+  font-size: 100px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -39,33 +39,37 @@
 /*きろくするページ*/
 .recordPageTitle{
   font-family: "APJapanesefont";
-  font-size: 32px;
+  font-size: 120px;
   text-align: center;
-  margin-top: 12%;
+  margin-top: 30%;
   margin-left: auto;
   margin-right: auto;
   color: #fc9308;
 }
 .inpNumPage{
-  width: 90%;
-  height: 30px;
-  border-radius: 10px;
+  width: 70%;
+  height: 125px;
+  font-family: "APJapanesefont";
+  font-size: 80px;
+  border-radius: 30px;
   border-color: #757a7d;
   border-style: dashed;
-  border-width: 1px 1px;
+  border-width: 4px 4px;
   text-align: center;
+  margin-top: 15%;
   margin-left: auto;
   margin-right: auto;
 }
 .pageConfirm{
   font-family: "APJapanesefont";
-  font-size: 100%;
+  font-size: 80px;
+  width: 20%;
   color: white;
-  margin-top: 5%;
+  margin-top: 10%;
   background-color: #35af5f;
   border-style: solid;
   border-color: #35af5f;
-  border-radius: 5px;
+  border-radius: 15px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -74,4 +78,34 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
+.numPageFix{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wellTitle{
+  color: #ff96ff;
+  font-family: "APJapanesefont";
+  font-size: 125px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40%;
+}
+.wellBack{
+  color: #35af5f;
+  font-family: "APJapanesefont";
+  font-size: 125px;
+  border-radius: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-style: dashed;
+  border-color: #757a7d;
+  border-width: 4px 4px;
+  padding: 10px 10px;
+  margin-top: 40%;
 }

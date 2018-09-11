@@ -9,6 +9,12 @@
 
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <% if flash[:notice] %>
+      <div class="flash">
+        <%= flash[:notice] %>
+      </div>
+    <% end %>
   </head>
 
   <body>

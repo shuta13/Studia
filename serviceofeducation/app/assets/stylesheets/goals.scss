@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .titleRegister{
   font-family: "APJapanesefont";
-  font-size: 30px;
+  font-size: 125px;
   text-align: center;
   margin-top: 12%;
   margin-left: auto;
@@ -12,11 +12,11 @@
 }
 .pageRegister{
   font-family: "APJapanesefont";
-  font-size: 28px;
+  font-size: 120px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5%;
+  margin-top: 15%;
   color: #fc9308;
 }
 
@@ -24,13 +24,13 @@
 .formRegister{
   color: #757a7d;
   width: 90%;
-  height: 28px;
+  height: 125px;
   font-family: "APJapanesefont";
-  font-size: 18px;
-  border-radius: 10px;
+  font-size: 80px;
+  border-radius: 30px;
   border-color: #757a7d;
   border-style: dashed;
-  border-width: 1px 1px;
+  border-width: 5px 5px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -38,13 +38,13 @@
 .numRegister{
   color: #757a7d;
   width: 90%;
-  height: 25px;
+  height: 125px;
   font-family: "APJapanesefont";
-  font-size: 18px;
-  border-radius: 10px;
+  font-size: 80px;
+  border-radius: 30px;
   border-color: #757a7d;
   border-style: dashed;
-  border-width: 1px 1px;
+  border-width: 5px 5px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -66,113 +66,114 @@
   color: #b5b4ac;
 }
 .preWords{
+  height: 100px;
   font-family: "APJapanesefont";
-  font-size: 100%;
+  font-size: 80px;
   color: white;
-  margin-top: 5%;
+  margin-top: 10%;
   background-color: #35af5f;
   border-style: solid;
   border-color: #35af5f;
-  border-radius: 5px;
+  border-radius: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.numFix{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
 .titleConfirm{
   font-family: "APJapanesefont";
-  font-size: 28px;
+  font-size: 125px;
   width: 100%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15%;
-  color: #fc9308;
+  margin-top: 20%;
+  color: #ff96ff;
 }
 .nonTopList{
   color: #ec4d3d;
-  width: 42%;
+  width: 60%;
   font-family: "APJapanesefont";
-  font-size: 13px;
-  border-radius: 5px;
+  font-size: 80px;
+  border-radius: 20px;
   text-align: center;
   border-style: dashed;
-  border-color: black;
-  border-width: 1px 1px;
-  padding: 3px 3px;
-  margin-top: 22%;
-  margin-left: 23%;
+  border-color: #757a7d;
+  border-width: 4px 4px;
+  padding: 10px 10px;
+  margin-top: 25%;
+  margin-left: 10%;
   margin-bottom: 0%;
   line-height: 80%;
 }
-.bodyConfirm1{
-  color: #757a7d;
+.bodyConfirm1_1{
+  color: #fc9308;
   font-family: "APJapanesefont";
-  font-size: 18px;
+  font-size: 100px;
   margin-top: 0%;
-  margin-left: 70%;
-  margin-right: 10%;
+  margin-left: 75%;
+  margin-right: 20%;
   margin-bottom: 0%;
-  line-height: 5%;
+  line-height: 0%;
 }
-
-.bodyConfirm2{
-  color: #757a7d;
+.bodyConfirm1_2{
+  color: #fc9308;
   font-family: "APJapanesefont";
-  font-size: 22px;
+  font-size: 100px;
+  margin-top: 0%;
+  margin-left: 85%;
+  margin-right: 20%;
+  margin-bottom: 0%;
+  line-height: 0%;
+}
+.bodyConfirm1_3{
+  color: #fc9308;
+  font-family: "APJapanesefont";
+  font-size: 100px;
+  margin-top: 0%;
+  margin-left: 95%;
+  margin-right: 20%;
+  margin-bottom: 0%;
+  line-height: 0%;
+}
+.bodyConfirm2{
+  color: #fc9308;
+  font-family: "APJapanesefont";
+  font-size: 110px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0%;
+  margin-top: 5%;
 }
 .confirmList1{
-  line-height: 20%;
+  line-height: 0%;
 }
 .confirmList2{
-  line-height: 120%;
+  line-height: 1000%;
 }
 .backTop{
   font-family: "APJapanesefont";
-  font-size: 30px;
-  border-radius: 5px;
+  font-size: 125px;
+  border-radius: 30px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   width: 90%;
   border-style: dashed;
   border-color: #757a7d;
-  border-width: 1px 1px;
+  border-width: 4px 4px;
   padding: 10px 10px;
-  margin-top: 30%;
-}
-.wellTitle{
-  color: #ff96ff;
-  font-family: "APJapanesefont";
-  font-size: 36px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 40%;
-}
-.wellBack{
-  color: #35af5f;
-  font-family: "APJapanesefont";
-  font-size: 30px;
-  border-radius: 5px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  border-style: dashed;
-  border-color: #757a7d;
-  border-width: 1px 1px;
-  padding: 10px 10px;
-  margin-top: 25%;
+  margin-top: 20%;
 }
 .listContent{
   color: #757a7d;
   font-family: "APJapanesefont";
-  font-size: 30px;
-  border-radius: 5px;
+  font-size: 125px;
+  border-radius: 30px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -185,8 +186,8 @@
 .listNum{
   color: #4285f4;
   font-family: "APJapanesefont";
-  font-size: 30px;
-  border-radius: 5px;
+  font-size: 125px;
+  border-radius: 30px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -198,15 +199,15 @@
 }
 .listBack{
   font-family: "APJapanesefont";
-  font-size: 30px;
-  border-radius: 5px;
+  font-size: 125px;
+  border-radius: 30px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 80%;
   border-style: dashed;
   border-color: #757a7d;
-  border-width: 1px 1px;
+  border-width: 4px 4px;
   padding: 10px 10px;
   margin-top: 20%;
 }

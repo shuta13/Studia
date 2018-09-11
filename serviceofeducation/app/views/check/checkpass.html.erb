@@ -2,16 +2,14 @@
 
 </head>
 <body>
-<h1 class="getTitle">スタンプをもらおう！</h1>
-<h1 class="checkTitle">おうちのひとに<br>このがめんをみせてね！</h1>
+<h1 class="checkTitle">おうちのひとに<br>このがめんをみせてね　</h1>
 <h1 class="passNotice">登録時のパスワードを<br>入力して下さい</h1>
 <%= form_tag('/check/checkauthentication') do %>
   <div class="checkForms">
     <input name="password" class="inpPass" type="password">
+  </div>
+  <div class="checkFormsFix">
     <input class="passConfirm" type="submit" value="確定">
   </div>
 <% end %>
-<h1 class="passReset">パスワードを忘れた方は
-  <%= link_to "こちら", {:controller => 'check', :action => 'checkinfo'}, {:style => "color: #4285f4;"} %>
-</h1>
 </body>

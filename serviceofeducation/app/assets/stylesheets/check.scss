@@ -3,32 +3,33 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .passStamp{
   font-family: "APJapanesefont";
-  font-size: 30px;
-  border-radius: 5px;
+  font-size: 125px;
+  border-radius: 30px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   width: 90%;
   border-style: dashed;
-  border-color: black;
-  border-width: 1px 1px;
+  border-color: #757a7d;
+  border-width: 4px 4px;
   padding: 10px 10px;
   margin-top: 30%;
 }
 .getStamp{
-  color: #757a7d;
+  color: #fc9308;
   font-family: "APJapanesefont";
-  font-size: 24px;
+  font-size: 120px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0%;
+  margin-top: 30%;
+  line-height: 120%;
 }
 /*checkpass*/
 .getTitle{
   color: #35af5f;
   font-family: "APJapanesefont";
-  font-size: 27px;
+  font-size: 125px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -37,7 +38,7 @@
 .checkTitle{
   color: #fc9308;
   font-family: "APJapanesefont";
-  font-size: 28px;
+  font-size: 113px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -49,36 +50,42 @@
   margin-left: auto;
   margin-right: auto;
 }
+.checkFormsFix{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 .inpPass{
   width: 90%;
-  height: 25px;
-  font-size: 13px;
-  border-radius: 5px;
+  height: 125px;
+  font-size: 100px;
+  border-radius: 30px;
   border-color: #b5b4ac;
   border-style: solid;
   border-width: 1px 1px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0%;
+  margin-top: 5%;
 }
 .passConfirm{
   font-family:"Yu Gothic UI Light";
-  font-size: 12px;
+  font-size: 50px;
+  width: 18%;
   color: white;
   background-color: #757a7d;
   border-style: solid;
   border-color: #757a7d;
-  border-radius: 5px;
+  border-radius: 10px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2%;
+  margin-top: 7%;
 }
 .passNotice{
   color: #757a7d;
   font-family:"Yu Gothic UI Light";
-  font-size: 13px;
+  font-size: 75px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -88,7 +95,7 @@
 .passReset{
   color: #757a7d;
   font-family:"Yu Gothic UI Light";
-  font-size: 15px;
+  font-size: 50px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -99,7 +106,7 @@
 .confirmTitle{
   color: #757a7d;
   font-family: "Yu Gothic UI Light";
-  font-size: 18px;
+  font-size: 75px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -108,50 +115,320 @@
 }
 .confirmGo{
   color: #b5b4ac;
-  height: 30px;
+  height: 125px;
   font-family: "Yu Gothic UI";
-  font-size: 20px;
-  border-radius: 5px;
+  font-size: 100px;
+  border-radius: 30px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15%;
+  margin-top: 20%;
   width: 80%;
   border-style: dashed;
-  border-color: black;
-  border-width: 1px 1px;
-  padding: 4px 4px;
+  border-color: #757a7d;
+  border-width: 4px 4px;
+  padding: 5px 5px;
 }
 .goalProgress{
   color: #ec4d3d;
   font-family: "Yu Gothic UI Light";
-  font-size: 20px;
+  font-size: 80px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 25%;
+  margin-top: 35%;
 }
 .dayProgress{
   color: #4285f4;
   font-family: "Yu Gothic UI Light";
-  font-size: 20px;
+  font-size: 80px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
 .checkContent{
   color: #b5b4ac;
-  height: 30px;
+  height: 125px;
   font-family: "Yu Gothic UI";
-  font-size: 20px;
-  border-radius: 5px;
+  font-size: 90px;
+  border-radius: 30px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15%;
+  margin-top: 35%;
   width: 80%;
   border-style: dashed;
-  border-color: black;
-  border-width: 1px 1px;
-  padding: 4px 4px;
+  border-color: #757a7d;
+  border-width: 4px 4px;
+  padding: 5px 5px;
+}
+.dispList{
+  font-family: "Yu Gothic UI";
+  font-size: 50px;
+  background-color: #35af5f;
+  border-radius: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-style: dashed;
+  border-color: #757a7d;
+  border-width: 4px 4px;
+  padding: 20px 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-top: 18%;
+  margin-bottom: 15%;
+  display: block;
+}
+/*ここからスタンプ画面の仕様*/
+/*ここからスタンプの仕様*/
+.disappearstamp{
+  display: none;
+}
+
+#contents{
+  position: relative;
+  width: 600px; /* 任意 */
+  height: 700px; /* 任意 */
+}
+#position{
+  position: absolute;
+  top: 10%; /* #contents内の上から何pxか */
+  left: 19%;
+}
+
+.block1{
+  position: absolute;
+  top: 200px; /* #contents内の上から何pxか */
+  left: 260px; /* #contents内の左から何pxか */
+}
+.square1{
+  width: 458px;
+  height: 458px;
+  background-color: #fbf09d;
+  border: 1px solid #bf9000;
+}
+.redcircle1{
+  width: 458px;
+  height: 458px;
+  background: #e55123;
+  border-radius: 300px;
+  position: absolute;
+}
+
+.block2{
+  position: absolute;
+  top: 200px; /* #contents内の上から何pxか */
+  left: 260px; /* #contents内の左から何pxか */
+}
+
+.square2{
+  width: 458px;
+  height: 458px;
+  background-color: #fbf09d;
+  border: 1px solid #bf9000;
+}
+.redcircle2{
+  width: 458px;
+  height: 458px;
+  background: #fc9308;
+  border-radius: 300px;
+}
+
+.block3{
+  position: absolute;
+  top: 200px; /* #contents内の上から何pxか */
+  left: 260px; /* #contents内の左から何pxか */
+}
+.square3{
+  width: 458px;
+  height: 458px;
+  background-color: #fbf09d;
+  border: 1px solid #bf9000;
+}
+.redcircle3{
+  width: 458px;
+  height: 458px;
+  background: #f4c20c;
+  border-radius: 300px;
+}
+
+.block4{
+  position: absolute;
+  top: 200px; /* #contents内の上から何pxか */
+  left: 260px; /* #contents内の左から何pxか */
+}
+.square4{
+  width: 458px;
+  height: 458px;
+  background-color: #fbf09d;
+  border: 1px solid #bf9000;
+}
+.redcircle4{
+  width: 458px;
+  height: 458px;
+  background: #a9e838;
+  border-radius: 300px;
+}
+
+.block5{
+  position: absolute;
+  top: 200px; /* #contents内の上から何pxか */
+  left: 260px; /* #contents内の左から何pxか */
+}
+
+.square5{
+  width: 458px;
+  height: 458px;
+  background-color: #fbf09d;
+  border: 1px solid #bf9000;
+}
+.redcircle5{
+  width: 458px;
+  height: 458px;
+  background: #10aae0;
+  border-radius: 300px;
+}
+
+.block6{
+  position: absolute;
+  top: 200px; /* #contents内の上から何pxか */
+  left: 260px; /* #contents内の左から何pxか */
+}
+
+.square6{
+  width: 458px;
+  height: 458px;
+  background-color: #fbf09d;
+  border: 1px solid #bf9000;
+}
+.redcircle6{
+  width: 458px;
+  height: 458px;
+  background: #ed6ddb;
+  border-radius: 300px;
+}
+
+.block7{
+  position: absolute;
+  top: 200px; /* #contents内の上から何pxか */
+  left: 260px; /* #contents内の左から何pxか */
+}
+
+.square7{
+  width: 458px;
+  height: 458px;
+  background-color: #fbf09d;
+  border: 1px solid #bf9000;
+}
+.redcircle7{
+  width: 458px;
+  height: 458px;
+  background: linear-gradient(-135deg, #fb9d05, #c0fe64);
+  border-radius: 300px;
+  z-index: 5;
+}
+.goodstamp{
+  color: #fffa21;
+  font-family: "APJapanesefont";
+  font-size: 150px;
+  position: absolute;
+  top: 15%; /* #contents内の上から何pxか */
+  left: 15%; /* #contents内の左から何pxか */
+  z-index: 10;
+}
+/*スタンプ終わり*/
+.sheetNotion{
+  color: #4285f4;
+  font-family: "Yu Gothic UI Light";
+  font-size: 80px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+}
+.ifSixStamp{
+  color: #757a7d;
+  font-family: "Yu Gothic UI Light";
+  font-size: 70px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 120%;
+  margin-top: 0%;
+}
+.optionStamp {
+  line-height: 200%;
+}
+.stampBack{
+  color: #35af5f;
+  font-family: "APJapanesefont";
+  font-size: 125px;
+  border-radius: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-style: dashed;
+  border-color: #757a7d;
+  border-width: 4px 4px;
+  padding: 10px 10px;
+  margin-top: 15%;
+}
+/*アクセス周り*/
+.goTop{
+  font-family: "Yu Gothic UI";
+  font-size: 80px;
+  border-radius: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border-style: dashed;
+  border-color: #757a7d;
+  border-width: 4px 4px;
+  padding: 10px 10px;
+  margin-top: 10%;
+}
+/*各ページのレイアウト等*/
+.stampNotion{color: #4285f4;
+  color: #757a7d;
+  font-family: "Yu Gothic UI Light";
+  font-size: 75px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 120%;
+  margin-top: 80%;
+}
+.stampConfirm{
+  color: #757a7d;
+  font-family: "Yu Gothic UI Light";
+  font-size: 70px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 120%;
+  margin-top: 20%;
+}
+img{
+  zoom: 2.9;
+}
+.imgDetail0{
+  position: absolute;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  top: 5%;
+}
+.warnNotion{
+  color: #757a7d;
+  font-family: "Yu Gothic UI Light";
+  font-size: 75px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 120%;
+  margin-top: 60%;
 }

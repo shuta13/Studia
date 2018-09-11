@@ -4,8 +4,8 @@
 <body>
 <h1 class="goalProgress">目標の進度： <%= @pageNumber %>  ページ</h1>
 <h1></h1>
-<h1 class="dayProgress">今日の進度： <%= @pageNumStudy %>  ページ</h1>
+<h1 class="dayProgress">今日の進度： <%= @pageNumStudy %><%= @pageNil %> ページ </h1>
 <div class="checkContent">
-  <%= link_to"勉強内容を確認する", {:controller => 'home', :action => 'top'}, {:style => "color: #757a7d"} %>
+  <%= link_to"勉強内容を確認する", {:controller => 'check', :action => 'displaycontent'}, {:style => "color: #757a7d"} %>
 </div>
 </body>
