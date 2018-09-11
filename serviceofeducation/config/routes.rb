@@ -17,6 +17,7 @@ Rails.application.routes.draw do
   get 'check/stampsheet6' => 'check#stampsheet6'
   get 'check/stampsheet7' => 'check#stampsheet7'
   get 'check/errorsheet' => 'check#errorsheet'
+  get 'check/gohome' => 'check#gohome'
 
   get 'records/recordimage' => 'records#recordimage'
   get 'records/recordpage' => 'records#recordpage'

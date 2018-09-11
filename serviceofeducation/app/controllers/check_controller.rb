@@ -13,7 +13,7 @@ class CheckController < ApplicationController
     if record
       @pageNumStudy = record.studypage
     else
-      @pageNil = ""
+      @pageNil = "0"
     end
   end
 
@@ -61,5 +61,8 @@ class CheckController < ApplicationController
     end
   end
   ###
-
+  def gohome
+    flash[:notice] = "よくできました！"
+    render('home/top')
+  end
 end
