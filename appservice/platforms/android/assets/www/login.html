@@ -11,36 +11,41 @@
     <title>Hello World</title>
 </head>
 <body>
-<h1 class="newNotion" style="font-family: 'APJapanesefont';">おうちのひとに<br>みせてね</h1>
-<h1 class="newGuide" style="font-family: 'Yu Gothic UI Light';">ユーザーID と パスワード を<br>登録して下さい</h1>
+<h1 class="loginNotion" style="font-family: 'APJapanesefont';">おうちのひとに<br>みせてね</h1>
 
-<form accept-charset="UTF-8" action="localhost:3000/home/create" method="post">
+<form accept-charset="UTF-8" action="http://localhost:3000/home/authentication" method="get">
     <div style="margin:0;padding:0;display:inline">
         <input name="utf8" type="hidden" value="&#x2713;" />
         <input name="authenticity_token" type="hidden" value="トークン" />
     </div>
     <!--form_tagの中-->
-    <h1 class="titleNew">ユーザーID</h1>
-    <div class="newName">
-        <input name="name" class="formNew" value="">
+    <h1 class="titleLogin" style="font-family: 'Yu Gothic UI Light';">ユーザーID</h1>
+    <div class="loginName">
+        <input name="name" class="formLogin" value="">
     </div>
-    <h1 class="newPass">パスワード</h1>
-    <div class="newInp">
-        <input name="password" type="password" class="newLog" value="">
-        <input name="" type="submit" class="preNew" value="スタート">
+    <h1 class="passLogin">パスワード</h1>
+    <div class="passInp">
+        <input name="password" type="password" class="loginGo" value="">
+    </div>
+    <div class="inpFix">
+        <input name="" type="submit" class="preLogin" value="ログイン">
     </div>
     <!-- form_tag終わり -->
 </form>
 
-<!--<h1 class="titleNew">ユーザーID</h1>
-<div class="newName">
-    <input name="name" class="formNew" value="<%= @name %>">
+<!--<%= form_tag('/home/authentication') do %>
+<h1 class="titleLogin">ユーザーID</h1>
+<div class="loginName">
+    <input name="name" class="formLogin" value="<%= @name %>">
 </div>
-<h1 class="newPass">パスワード</h1>
-<div class="newInp">
-    <input name="password" type="password" class="newLog" value="<%= @password %>">
-    <input name="" type="submit" class="preNew" value="スタート">
-</div>-->
+<h1 class="passLogin">パスワード</h1>
+<div class="passInp">
+    <input name="password" type="password" class="loginGo" value="<%= @password %>">
+</div>
+<div class="inpFix">
+    <input name="" type="submit" class="preLogin" value="ログイン">
+</div>
+<% end %>-->
 
 <script type="text/javascript" src="cordova.js"></script>
 <script type="text/javascript" src="js/index.js"></script>

@@ -10,9 +10,9 @@
 </head>
 <body>
 <h1 class="newNotion" style="font-family: 'APJapanesefont';">おうちのひとに<br>みせてね</h1>
-<h1 class="newGuide" style="font-family: 'Yu Gothic UI';">ユーザーID と パスワード を<br>登録して下さい</h1>
+<h1 class="newGuide" style="font-family: 'Yu Gothic UI Light';">ユーザーID と パスワード を<br>登録して下さい</h1>
 
-<form accept-charset="UTF-8" action="/home/create" method="post">
+<form accept-charset="UTF-8" action="localhost:3000/home/create" method="post">
     <div style="margin:0;padding:0;display:inline">
         <input name="utf8" type="hidden" value="&#x2713;" />
         <input name="authenticity_token" type="hidden" value="トークン" />
@@ -20,11 +20,11 @@
     <!--form_tagの中-->
     <h1 class="titleNew">ユーザーID</h1>
     <div class="newName">
-        <input name="name" class="formNew" value="<%= @name %>">
+        <input name="name" class="formNew" value="">
     </div>
     <h1 class="newPass">パスワード</h1>
     <div class="newInp">
-        <input name="password" type="password" class="newLog" value="<%= @password %>">
+        <input name="password" type="password" class="newLog" value="">
         <input name="" type="submit" class="preNew" value="スタート">
     </div>
     <!-- form_tag終わり -->
