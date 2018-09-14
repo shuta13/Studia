@@ -28,7 +28,7 @@ Rails.application.routes.draw do
   get 'goals/goallist' => 'goals#goallist'
   get 'goals/goalcreate' => 'goals#goalcreate'
 
-  get '/' => 'home#start'
+  root 'home#start'
   get 'menu' => 'home#menu'
   get 'login' => 'home#login'
   get 'new' => 'home#new'

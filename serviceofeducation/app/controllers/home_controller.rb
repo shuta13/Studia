@@ -4,6 +4,9 @@ class HomeController < ApplicationController
   def start
   end
   def menu
+    personal = {'name' => 'Yamada', 'old' => 28}
+
+    render :json => personal
   end
 
   def login
