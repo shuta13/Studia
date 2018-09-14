@@ -2,15 +2,15 @@ $(function() {
     $('.begin').on('click',function() {
         $.ajax({
             type: 'GET',
-            url:'http://localhost3000/menu',
-            dateType: 'html'
+            url:'http://localhost:3000/menu',
+
         })
         .done( (data) => {
-            $('.result').html(data);
+            $('.result').json(data);
             console.log(data);
         })
         .fail( (data) => {
-            $('.result').html(data);
+            $('.result').json(data);
             console.log(data);
         })
         .always( (data) => {

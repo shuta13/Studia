@@ -61,3 +61,103 @@ body{
   padding: 10px 10px;
   margin-top: 50%;
 }
+/*new*/
+.newNotion{
+  color: #fc9308;
+  font-family: "APJapanesefont";
+  font-size: 35px;
+  border-radius: 10px;
+  border-color: #757a7d;
+  border-style: dashed;
+  border-width: 1px 1px;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.newGuide{
+  font-family: "Yu Gothic UI Light";
+  font-size: 18px;
+  text-align: center;
+  margin-top: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+}
+.titleNew{
+  font-family: "Yu Gothic UI Light";
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #757a7d;
+}
+.passSet{
+  font-family: "Yu Gothic UI Light";
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #757a7d;
+}
+.newName{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.newPass{
+  font-family: "Yu Gothic UI Light";
+  font-size: 20px;
+  text-align: center;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #757a7d;
+}
+.newInp{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*new_input*/
+.formNew{
+  font-family: "Yu Gothic UI";
+  font-size: 23px;
+  width: 90%;
+  height: 28px;
+  border-radius: 10px;
+  border-color: #757a7d;
+  border-style: dashed;
+  border-width: 1px 1px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.newLog{
+  width: 90%;
+  height: 25px;
+  border-radius: 10px;
+  border-color: #757a7d;
+  border-style: dashed;
+  border-width: 1px 1px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+}
+/*new_button*/
+.preNew{
+  font-family: "Yu Gothic UI";
+  font-size: 100%;
+  color: white;
+  margin-top: 5%;
+  background-color: #35af5f;
+  border-style: solid;
+  border-color: #35af5f;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
