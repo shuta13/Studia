@@ -1,14 +1,12 @@
 class HomeController < ApplicationController
   before_action :authenticate_user, {only: [:top]}
   before_action :forbid_login_user, {only: [:new]}
+  protect_from_forgery :except => [:authentication]
   def start
   end
   def menu
-    personal = {'name' => 'Yamada', 'old' => 28}
 
-    render :json => personal
   end
-
   def login
   end
 

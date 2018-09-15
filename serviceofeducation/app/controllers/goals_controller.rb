@@ -6,6 +6,7 @@ class GoalsController < ApplicationController
       cleanDay = Date.today
       lagDay = cleanDay - upDay
       if lagDay >= 7
+        goal.destroy()
         render('goals/goaldecision')
       elsif lagDay < 7 && lagDay >= 0
         redirect_to('/goals/goallist')

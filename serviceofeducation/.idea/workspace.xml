@@ -8,26 +8,17 @@
       <change beforePath="$PROJECT_DIR$/../appservice/platforms/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../appservice/platforms/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../appservice/platforms/android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../appservice/platforms/android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../appservice/platforms/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../appservice/platforms/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appservice/platforms/android/assets/www/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/../appservice/platforms/android/assets/www/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appservice/platforms/android/assets/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../appservice/platforms/android/assets/www/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appservice/platforms/android/assets/www/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../appservice/platforms/android/assets/www/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appservice/platforms/android/assets/www/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/../appservice/platforms/android/assets/www/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appservice/platforms/android/assets/www/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/../appservice/platforms/android/assets/www/new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appservice/platforms/android/assets/www/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../appservice/platforms/android/assets/www/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../appservice/platforms/browser/www/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/../appservice/platforms/browser/www/css/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../appservice/platforms/browser/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../appservice/platforms/browser/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appservice/platforms/browser/www/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../appservice/platforms/browser/www/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../appservice/platforms/browser/www/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/../appservice/platforms/browser/www/menu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../appservice/platforms/browser/www/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/../appservice/platforms/browser/www/new.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appservice/www/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/../appservice/www/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appservice/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../appservice/www/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appservice/www/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../appservice/www/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appservice/www/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/../appservice/www/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appservice/www/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/../appservice/www/new.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appservice/www/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../appservice/www/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/goals_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/goals_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/home/top.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/top.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -59,31 +50,32 @@
     <session id="1228509588">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
-          <entry key="project.open.time.0" value="5" />
+          <entry key="project.closed" value="26" />
+          <entry key="project.open.time.0" value="7" />
           <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Gemfile" value="3" />
+          <entry key="Gemfile" value="4" />
           <entry key="coffee" value="2" />
           <entry key="css" value="13" />
-          <entry key="erb" value="191" />
+          <entry key="erb" value="193" />
           <entry key="js" value="12" />
           <entry key="pid" value="1" />
           <entry key="png" value="1" />
-          <entry key="rb" value="138" />
+          <entry key="rb" value="143" />
           <entry key="scss" value="65" />
         </counts>
       </usages-collector>
@@ -94,8 +86,8 @@
           <entry key="Image" value="1" />
           <entry key="JavaScript" value="12" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="RHTML" value="191" />
-          <entry key="Ruby" value="141" />
+          <entry key="RHTML" value="193" />
+          <entry key="Ruby" value="147" />
           <entry key="SCSS" value="65" />
         </counts>
       </usages-collector>
@@ -105,7 +97,7 @@
           <entry key="css" value="284" />
           <entry key="erb" value="6746" />
           <entry key="js" value="281" />
-          <entry key="rb" value="6091" />
+          <entry key="rb" value="6404" />
           <entry key="scss" value="5577" />
         </counts>
       </usages-collector>
@@ -114,7 +106,7 @@
           <entry key="CSS" value="284" />
           <entry key="JavaScript" value="281" />
           <entry key="RHTML" value="6746" />
-          <entry key="Ruby" value="6134" />
+          <entry key="Ruby" value="6447" />
           <entry key="SCSS" value="5577" />
         </counts>
       </usages-collector>
@@ -129,10 +121,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/records/recordimage.html.erb">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            <state relative-caret-position="17">
+              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -203,7 +195,6 @@
         <option value="$PROJECT_DIR$/app/views/home/login.html.erb" />
         <option value="$PROJECT_DIR$/app/views/goals/goaldecision.html.erb" />
         <option value="$PROJECT_DIR$/app/views/goals/goalconfirm.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/goals_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/goals.scss" />
         <option value="$PROJECT_DIR$/app/views/check/progresscontent.html.erb" />
         <option value="$PROJECT_DIR$/app/views/records/recordwell.html.erb" />
@@ -218,7 +209,6 @@
         <option value="$PROJECT_DIR$/app/views/check/stampsheet6.html.erb" />
         <option value="$PROJECT_DIR$/app/views/check/stampsheet1.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/geometry.js" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/check/errorsheet.html.erb" />
         <option value="$PROJECT_DIR$/app/views/check/checkpass.html.erb" />
         <option value="$PROJECT_DIR$/app/views/check/stampsheet0.html.erb" />
@@ -229,9 +219,11 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/records.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/check.scss" />
         <option value="$PROJECT_DIR$/app/views/home/top.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/home.scss" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/home.scss" />
+        <option value="$PROJECT_DIR$/app/controllers/goals_controller.rb" />
       </list>
     </option>
   </component>
@@ -254,10 +246,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="1103" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -294,12 +286,17 @@
               <item name="serviceofeducation" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="records" type="462c0819:PsiDirectoryNode" />
+              <item name="goals" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="serviceofeducation" type="b2602c69:ProjectViewProjectNode" />
               <item name="serviceofeducation" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serviceofeducation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serviceofeducation" type="462c0819:PsiDirectoryNode" />
+              <item name="tmp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -311,7 +308,7 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql&#10;sqlserver" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/railssample/test_app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -458,11 +455,16 @@
       <workItem from="1536655170532" duration="8353000" />
       <workItem from="1536867455527" duration="3937000" />
       <workItem from="1536889117655" duration="26563000" />
+      <workItem from="1536955210906" duration="123000" />
+      <workItem from="1536991563520" duration="2223000" />
+      <workItem from="1537014232722" duration="953000" />
+      <workItem from="1537015277043" duration="4931000" />
+      <workItem from="1537049223921" duration="1510000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="264988000" />
+    <option name="totallyTimeSpent" value="274728000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -474,16 +476,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12899786" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20242915" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -491,16 +491,18 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3294509" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.15400624" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31447586" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -568,13 +570,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/check/stampsheet.html.erb" />
-    <entry file="file://$PROJECT_DIR$/app/views/goals/goaldecision.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/goals/goalconfirm.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -625,13 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/check/checklist.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -678,13 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/goals_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -765,20 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/top.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -793,13 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/check.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="519">
@@ -807,10 +767,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="60" column="14" lean-forward="true" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/records/recordimage.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/top.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/goals/goaldecision.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/goals_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
         </state>
       </provider>
     </entry>

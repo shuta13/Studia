@@ -20,7 +20,6 @@ class ApplicationController < ActionController::Base
     goal = Goal.find_by(id: @current_user.id)
     if goal
       @accessKey = Date.today - Date.parse(goal.updated_at.to_s)
-          +100
     end
   end
 end
