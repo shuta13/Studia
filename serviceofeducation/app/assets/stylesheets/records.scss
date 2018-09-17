@@ -127,4 +127,84 @@
   border-width: 4px 4px;
   padding: 10px 10px;
   margin-top: 40%;
+  line-height: 90%;
+}
+/*image*/
+.cameraRoll{
+  font-family: "APJapanesefont";
+  height: 70px;
+  font-size: 50px;
+  color: #35af5f;
+  margin-top: 15%;
+  border-style: solid;
+  border-radius: 5px;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 10%;
+}
+.push{
+  font-family: "APJapanesefont";
+  font-size: 70px;
+  color: #757a7d;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+}
+.cameraRoll{
+  margin-top: 20%;
+}
+.cameraSubm{
+  font-family: "APJapanesefont";
+  font-size: 70px;
+  color: white;
+  margin-top: 15%;
+  background-color: #35af5f;
+  border-style: solid;
+  border-color: #35af5f;
+  border-radius: 10px;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imagesize{
+  max-width: 80%;
+  height: auto;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.addGo{
+  background-color: #fc9308;
+  font-family: "APJapanesefont";
+  font-size: 125px;
+  border-radius: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-style: dashed;
+  border-color: #757a7d;
+  border-width: 5px 5px;
+  padding: 10px 10px;
+  margin-top: 15%;
+}
+.addEnd{
+  background-color: #35af5f;
+  font-family: "APJapanesefont";
+  font-size: 125px;
+  border-radius: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-style: dashed;
+  border-color: #757a7d;
+  border-width: 7px 7px;
+  padding: 10px 10px;
+  margin-top: 15%;
 }

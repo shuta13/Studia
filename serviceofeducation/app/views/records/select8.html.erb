@@ -1,0 +1,17 @@
+<head>
+
+</head>
+<body>
+
+<% if @user.image8 %>
+  <img src="/image/<%= @user.image8 %>" class="imagesize">
+<% end %>
+
+<div class="addGo">
+  <%= link_to "ついかする", {:controller => 'records', :action => 'recordimage9'}, {:style => "color: #ffffff;"} %>
+</div>
+<div class="addEnd">
+  <%= link_to"とうろくおわり", {:controller => 'records', :action => 'recordBack'}, {:style => "color: #ffffff;"} %>
+</div>
+
+</body>

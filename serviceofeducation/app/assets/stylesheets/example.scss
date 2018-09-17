@@ -1,3 +1,62 @@
-// Place all the styles related to the example controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.imagelist{
+  position: relative;
+}
+.useimage{
+  position: absolute;
+  z-index: 0;
+}
+.usecomment1{
+  top: 150px;
+  left: 20px  ;
+  position: absolute;
+  z-index: 1;
+}
+.usecomment2{
+  top: 255px;
+  position: absolute;
+  z-index: 1;
+}
+.usecomment3{
+  top: 125px;
+  left: 40px;
+  position: absolute;
+  z-index: 1;
+}
+.usecomment4{
+  top: 325px;
+  left: 30px;
+  position: absolute;
+  z-index: 1;
+}
+.exalist{
+  background-color: #4285f4;
+  position: absolute;
+  font-family: "APJapanesefont";
+  font-size: 110px;
+  border-radius: 30px;
+  width: 80%;
+  text-align: center;
+  border-style: dashed;
+  border-color: #757a7d;
+  border-width: 4px 4px;
+  padding: 20px 20px;
+  margin-top: 190%;
+  margin-left: 20%;
+  display: block;
+}
+.exabacklist{
+  background-color: #35af5f;
+  position: absolute;
+  font-family: "APJapanesefont";
+  font-size: 110px;
+  border-radius: 30px;
+  width: 80%;
+  text-align: center;
+  border-style: dashed;
+  border-color: #757a7d;
+  border-width: 4px 4px;
+  padding: 20px 20px;
+  margin-top: 190%;
+  margin-left: 20%;
+  display: block;
+}

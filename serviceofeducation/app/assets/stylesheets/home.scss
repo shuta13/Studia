@@ -184,28 +184,28 @@ body{
 .newNotion{
   color: #fc9308;
   font-family: "APJapanesefont";
-  font-size: 35px;
-  border-radius: 10px;
+  font-size: 125px;
+  border-radius: 30px;
   border-color: #757a7d;
   border-style: dashed;
-  border-width: 1px 1px;
+  border-width: 4px 4px;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
 }
 .newGuide{
   font-family: "Yu Gothic UI Light";
-  font-size: 18px;
+  font-size: 70px;
   text-align: center;
-  margin-top: 0%;
+  margin-top: 15%;
   margin-left: auto;
   margin-right: auto;
-  color: black;
+  color: #757a7d;
 }
 .titleNew{
   font-family: "Yu Gothic UI Light";
-  font-size: 20px;
+  font-size: 60px;
   text-align: center;
   margin-top: 5%;
   margin-left: auto;
@@ -228,7 +228,7 @@ body{
 }
 .newPass{
   font-family: "Yu Gothic UI Light";
-  font-size: 20px;
+  font-size: 60px;
   text-align: center;
   margin-top: 2%;
   margin-left: auto;
@@ -243,9 +243,9 @@ body{
 /*new_input*/
 .formNew{
   font-family: "Yu Gothic UI";
-  font-size: 23px;
+  font-size: 100px;
   width: 90%;
-  height: 28px;
+  height: 100px;
   border-radius: 10px;
   border-color: #757a7d;
   border-style: dashed;
@@ -256,7 +256,8 @@ body{
 }
 .newLog{
   width: 90%;
-  height: 25px;
+  font-size: 100px;
+  height: 100px;
   border-radius: 10px;
   border-color: #757a7d;
   border-style: dashed;
@@ -269,9 +270,9 @@ body{
 /*new_button*/
 .preNew{
   font-family: "Yu Gothic UI";
-  font-size: 100%;
+  font-size: 60px;
   color: white;
-  margin-top: 5%;
+  margin-top: 15%;
   background-color: #35af5f;
   border-style: solid;
   border-color: #35af5f;

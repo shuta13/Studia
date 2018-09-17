@@ -34,7 +34,8 @@ class CheckController < ApplicationController
   end
 
   def displaycontent
-
+    range = Date.today.beginning_of_day..Date.today.end_of_day
+    @records = Record.find_by(user_id: @current_user.id, updated_at: range)
   end
   #アクセス制限#
   def judger

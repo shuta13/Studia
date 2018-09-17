@@ -1,0 +1,14 @@
+<head>
+
+</head>
+<body>
+
+<% if @user.image10 %>
+  <img src="/image/<%= @user.image10 %>" class="imagesize">
+<% end %>
+
+<div class="addEnd">
+  <%= link_to"とうろくおわり", {:controller => 'records', :action => 'recordpage'}, {:style => "color: #ffffff;"} %>
+</div>
+
+</body>

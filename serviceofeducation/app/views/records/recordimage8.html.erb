@@ -1,0 +1,19 @@
+<head>
+
+</head>
+<body>
+<h1 class="recordTitle">べんきょうノートの<br>しゃしんを<br>とうろくしよう</h1>
+<%= form_tag('/records/imageRec8', {multipart: true}) do %>
+
+  <h1 class="push">「ファイルを
+    <ruby>
+      <rb>選</rb><rt>せん</rt>
+      <rb>択</rb><rt>たく</rt>
+    </ruby>
+    」をおしてね</h1>
+
+  <input name="image", type="file" class="cameraRoll" value="カメラロールへ">
+  <input type="submit" class="cameraSubm" value="とうろく">
+<% end %>
+
+</body>

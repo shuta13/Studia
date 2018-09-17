@@ -1,4 +1,36 @@
-<h1>記録された写真一覧(１週間分)</h1>
+<% if @records %>
+  <% if @records.image1 %>
+    <img src="/image/<%= @records.image1 %>" class="imagesize">
+  <% end %>
+  <% if @records.image2 %>
+    <img src="/image/<%= @records.image2 %>" class="imagesize">
+  <% end %>
+  <% if @records.image3 %>
+    <img src="/image/<%= @records.image3 %>" class="imagesize">
+  <% end %>
+  <% if @records.image4 %>
+    <img src="/image/<%= @records.image4 %>" class="imagesize">
+  <% end %>
+  <% if @records.image5 %>
+    <img src="/image/<%= @records.image5 %>" class="imagesize">
+  <% end %>
+  <% if @records.image6 %>
+    <img src="/image/<%= @records.image6 %>" class="imagesize">
+  <% end %>
+  <% if @records.image7 %>
+    <img src="/image/<%= @records.image7 %>" class="imagesize">
+  <% end %>
+  <% if @records.image8 %>
+    <img src="/image/<%= @records.image8 %>" class="imagesize">
+  <% end %>
+  <% if @records.image9 %>
+    <img src="/image/<%= @records.image9 %>" class="imagesize">
+  <% end %>
+  <% if @records.image10 %>
+    <img src="/image/<%= @records.image10 %>" class="imagesize">
+  <% end %>
+<% end %>
+
 <div class="dispList">
   <%= link_to"スタンプ画面へ", {:controller => 'check', :action => 'judger'}, {:style => "color: #ffffff;"} %>
 </div>
