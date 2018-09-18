@@ -22,7 +22,7 @@ class RecordsController < ApplicationController
       user_id: @current_user.id,
       )
       if @record.save
-        redirect_to('/recorxds/recordwell')
+        redirect_to('/records/recordwell')
       else
         render('records/recordpage')
       end
@@ -40,7 +40,14 @@ class RecordsController < ApplicationController
       )
 
       if @user.save
-        redirect_to('/records/select1')
+        @user = Record.find_by(user_id: @current_user.id, updated_at: range)
+        @user.image1 = "#{@user.user_id}1.jpg"
+        image = params[:image]
+        File.binwrite("public/image/#{@user.image1}", image.read)
+        if @user.save
+          redirect_to('/records/select1')
+        end
+
       elsif
         redirect_to('/records/recordpage')
       end

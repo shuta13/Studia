@@ -5,7 +5,7 @@
   font-family: "APJapanesefont";
   font-size: 125px;
   text-align: center;
-  margin-top: 12%;
+  margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
   color: #fc9308;
@@ -16,10 +16,29 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15%;
+  margin-top: 5%;
   color: #fc9308;
 }
-
+.subGoalTit{
+  font-family: "APJapanesefont";
+  font-size: 75px;
+  text-align: center;
+  margin-top: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ec4d3d;
+  line-height: 100%;
+}
+.subGoalNum{
+  font-family: "APJapanesefont";
+  font-size: 50px;
+  text-align: center;
+  margin-top: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #757a7d;
+  line-height: 10%;
+}
 /*input欄*/
 .formRegister{
   color: #757a7d;
@@ -70,7 +89,7 @@
   font-family: "APJapanesefont";
   font-size: 80px;
   color: white;
-  margin-top: 10%;
+  margin-top: 5%;
   background-color: #35af5f;
   border-style: solid;
   border-color: #35af5f;
