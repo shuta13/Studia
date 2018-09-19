@@ -10,6 +10,13 @@ a {
 body{
   background-color: ivory;
 }
+
+::placeholder{
+  font-family: "APJapanesefont";
+  text-align: center;
+  color: #b5b4ac;
+}
+
 /*start*/
 .startGo{
   color: #FFFFFF;
@@ -65,13 +72,13 @@ body{
 .newNotion{
   color: #fc9308;
   font-family: "APJapanesefont";
-  font-size: 35px;
+  font-size: 38px;
   border-radius: 10px;
   border-color: #757a7d;
   border-style: dashed;
   border-width: 1px 1px;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 12%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -152,11 +159,91 @@ body{
   font-family: "Yu Gothic UI";
   font-size: 100%;
   color: white;
+  margin-top: 7%;
+  background-color: #35af5f;
+  border-style: solid;
+  border-color: #35af5f;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*login*/
+.loginNotion{
+  color: #ec4d3d;
+  font-family: "APJapanesefont";
+  font-size: 38px;
+  border-radius: 10px;
+  border-color: #757a7d;
+  border-style: dashed;
+  border-width: 5px 5px;
+  text-align: center;
+  margin-top: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.titleLogin{
+  font-family: "Yu Gothic UI Light";
+  font-size: 30px;
+  margin-top: 20%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #757a7d;
+}
+.loginName{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.preLogin{
+  font-family: "Yu Gothic UI";
+  font-size: 50px;
+  height: 100px;
+  color: white;
   margin-top: 5%;
   background-color: #35af5f;
   border-style: solid;
   border-color: #35af5f;
   border-radius: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+.passInp{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*login_input*/
+.formLogin{
+  font-family: "Yu Gothic UI";
+  font-size: 80px;
+  width: 90%;
+  height: 100px;
+  border-radius: 10px;
+  border-color: #757a7d;
+  border-style: dashed;
+  border-width: 1px 1px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.loginGo{
+  width: 90%;
+  height: 100px;
+  font-size: 80px;
+  border-radius: 10px;
+  border-color: #757a7d;
+  border-style: dashed;
+  border-width: 1px 1px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*input_end*/
+.inpFix{
   text-align: center;
   margin-left: auto;
   margin-right: auto;

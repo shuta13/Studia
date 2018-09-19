@@ -2,18 +2,22 @@ $(function() {
     $('.begin').on('click',function() {
         $.ajax({
             type: 'GET',
-            url:'http://localhost:3000/menu',
+            url: 'http://localhost:3000/',
+            data:{
 
+
+            }
         })
         .done( (data) => {
-            $('.result').json(data);
+            $('.result').html(data);
             console.log(data);
         })
         .fail( (data) => {
-            $('.result').json(data);
+            $('.result').html(data);
             console.log(data);
         })
         .always( (data) => {
+
         });
     });
 });
