@@ -5,7 +5,7 @@ Application on web browser<br>
 
 API server : Ruby on Rails<br>
 Web server : Apache Cordova<br>
-Database : Sqlite(hope to change this to MySQL)
+Database : Sqlite(hope to change this to MySQL or PostgreSQL)
 
 Starting command:
 API server -> `rails server`(/serviceofeducation)<br>
