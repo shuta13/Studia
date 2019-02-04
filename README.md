@@ -8,4 +8,4 @@ Database : Sqlite(hope to change this to MySQL)
 
 Starting command:
 API server -> `rails server`(/serviceofeducation)<br>
-Web server -> `cordova run browser`(/appservice)<br> * requre npm
+Web server -> `cordova run browser`(/appservice) * requre npm<br>
