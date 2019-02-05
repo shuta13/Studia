@@ -9,7 +9,7 @@ Database : Sqlite(hope to change this to MySQL or PostgreSQL)
 
 Starting command:
 API server -> `rails server`(/serviceofeducation)<br>
-Web server -> `cordova run browser`(/appservice) * requre npm<br>
+Web server -> `cordova run browser`(/appservice) ... require npm<br>
 
 version:
 ruby -> 2.4.4 <br>
