@@ -15,3 +15,6 @@ version:
 ruby -> 2.4.4 <br>
 rails -> 5.2.2 <br>
 npm -> 6.4.1 <br>
+
+- frontend-parts : proxy
+- backend-parts : application for test on localhost
