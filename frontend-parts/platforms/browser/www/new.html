@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <title>Create Account</title>
+</head>
+<body>
+<h1 class="newNotion" style="font-family: 'APJapanesefont';">おうちのひとに<br>みせてね</h1>
+<h1 class="newGuide" style="font-family: 'Yu Gothic UI Light';">ユーザーID と パスワード を<br>登録して下さい</h1>
+
+<form accept-charset="UTF-8" action="https://stable-study.herokuapp.com/home/create" method="post">
+    <div style="margin:0;padding:0;display:inline">
+        <input name="utf8" type="hidden" value="&#x2713;" />
+        <input name="authenticity_token" type="hidden" value="トークン" />
+    </div>
+    <!--form_tagの中-->
+    <h1 class="titleLogin">ユーザーID</h1>
+    <div class="loginName">
+        <input name="name" class="formLogin" value="">
+    </div>
+    <h1 class="passLogin">パスワード</h1>
+    <div class="passInp">
+        <input name="password" type="password" class="loginGo" value="">
+    </div>
+    <div class="inpFix">
+        <input name="" type="submit" class="preLogin" value="スタート">
+    </div>
+    <!-- form_tag終わり -->
+</form>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/new.js"></script>
+</body>
+</html>
