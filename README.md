@@ -14,7 +14,6 @@ Web server -> `cordova run browser`(/appservice) ... require npm<br>
 version:
 ruby -> 2.4.4 <br>
 rails -> 5.2.2 <br>
-npm -> 6.4.1 <br>
 
 - frontend-parts :  server on localhost (I want to deploy)
 - backend-parts : application for test on localhost
