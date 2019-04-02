@@ -16,5 +16,5 @@ ruby -> 2.4.4 <br>
 rails -> 5.2.2 <br>
 npm -> 6.4.1 <br>
 
-- frontend-parts : proxy server on localhost (enabled on heroku!)
+- frontend-parts : proxy server on localhost (I want to deploy)
 - backend-parts : application for test on localhost
