@@ -1,6 +1,6 @@
 # Studia
 Supporting childrens' studying or doing homework through recording and giving reward(stamp).<br>
-Application on web browser<br>
+Application for Smartphone users<br>
 
 Only Ruby on Rails version : https://stable-study.herokuapp.com
 
