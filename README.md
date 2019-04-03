@@ -7,11 +7,15 @@ API server : Ruby on Rails<br>
 Web server : Apache Cordova<br>
 Database : Sqlite(hope to change this to MySQL or PostgreSQL)
 
-Starting command:
+preparation:<br>
+API server -> `bundle install` -> `bundle exec rake db:create` -> `bundle exec rake db:migration`<br>
+Web server -> `npm install` -> `npm install -g cordova`<br>
+
+start:<br>
 API server -> `rails server`(/serviceofeducation)<br>
 Web server -> `cordova run browser`(/appservice) ... require npm<br>
 
-version:
+version:<br>
 ruby -> 2.4.4 <br>
 rails -> 5.2.2 <br>
 
