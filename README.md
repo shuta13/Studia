@@ -13,7 +13,7 @@ Web server -> `npm install` -> `npm install -g cordova`<br>
 
 start:<br>
 API server -> `rails server`(/serviceofeducation)<br>
-Web server -> `cordova run browser`(/appservice) ... require npm<br>
+Web server -> `cordova run browser`(/appservice)
 
 version:<br>
 ruby -> 2.4.4 <br>
