@@ -5,7 +5,7 @@ Application on web browser<br>
 
 API server : Ruby on Rails<br>
 Web server : Apache Cordova<br>
-Database : Sqlite(hope to change this to MySQL or PostgreSQL)
+Database : development -> Sqlite3, production -> PostgreSQL
 
 preparation:<br>
 API server -> `bundle install` -> `bundle exec rake db:create` -> `bundle exec rake db:migration`<br>
