@@ -1,4 +1,4 @@
-# Stablystudy
+# Studia
 Supporting childrens' studying or doing homework through recording and giving reward(stamp).
 Application on web browser<br>
 (localhost)
