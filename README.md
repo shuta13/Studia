@@ -19,6 +19,3 @@ Web server -> `cordova run browser`(on frontend-parts)
 version:<br>
 ruby -> 2.4.4 <br>
 rails -> 5.2.2 <br>
-
-- frontend-parts :  server on localhost (I want to deploy)
-- backend-parts : application for test on localhost
